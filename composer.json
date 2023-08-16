@@ -1,0 +1,27 @@
+{
+    "name": "hereismhtm/pin-puzzle",
+    "type": "library",
+    "description": "Personal Identification Number (PIN) transformer into three separate secret parts, assemble them back together to get your PIN",
+    "keywords": [
+        "pin",
+        "secret",
+        "encryption",
+        "decryption"
+    ],
+    "homepage": "https://github.com/hereismhtm/pin-puzzle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mustafa Elhadi",
+            "email": "mhtm@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PinPuzzle\\": "src/"
+        }
+    }
+}
