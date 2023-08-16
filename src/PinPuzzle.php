@@ -1,6 +1,18 @@
 <?php
 
 declare(strict_types=1);
+/**
+ * PinPuzzle Library.
+ * 
+ * Personal Identification Number (PIN) transformer into three separate secret parts,
+ * assemble them back together to get your PIN.
+ * 
+ * @version: v1.0.0
+ * @author Mustafa Elhadi
+ * @package PinPuzzle
+ * @copyright Copyright 2023 PinPuzzle Library, Mustafa Elhadi.
+ * @license https://opensource.org/licenses/MIT
+ */
 
 namespace PinPuzzle;
 
